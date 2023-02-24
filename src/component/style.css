@@ -1,0 +1,52 @@
+/* header */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    height: 70px;
+    background-color: gray;
+    font-size: 30px;
+    color:white
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.nav a{
+    font-size: 40px;
+    color: white;
+    margin-left: 25px;
+}
+.active{
+    background-color: green;
+}
+/*  footer  */
+.footer{
+    height: 70px;
+    background-color: gray;
+    font-size: 50px;
+    color:white;  
+  background-color: black;
+    text-align: center;
+}
+/*  home  */
+.home{
+    background-color: red;
+    height: 570px;
+    font-size: 35px;
+    color: white;
+}
+/*  not found  */
+.gotohome{
+    color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    width:300px ;
+}
+.gotohome:hover{
+    cursor: pointer;
+}
